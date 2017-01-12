@@ -1,0 +1,14 @@
+
+
+Reason:-
+
+pull command =  fetch + git merge commands , which will result with an extra commit
+
+Solution:-
+ git command used : 
+
+  pull --rebase <remote-name> <branch-name> . 
+
+
+instead of pull which will override the current version we have completely without merge issu
+
